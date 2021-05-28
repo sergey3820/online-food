@@ -50,6 +50,7 @@ const initialState: IAllpizzasState = {
    num: 0,
 };
 
+
 export const allPizzasReducer = (state = initialState, action: IAllPizzasAction) => {
    switch(action.type) {
       case types.GET_ALL_PIZZAS:
