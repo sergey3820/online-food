@@ -1,0 +1,69 @@
+.main {
+
+    margin-top: 5%;
+
+    .count_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 7%;
+    }
+
+    .title_text, .price_text {
+        font-size: 21px;
+
+        .count_span {
+            font-size: 23px;
+            font-weight: bold;
+        }
+    }
+
+    .price_span {
+        font-size: 23px;
+        font-weight: bold;
+        color: #FE5F1E;
+    }
+
+    .btn_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 7%;
+    }
+
+    .arrow {
+        font-size: 15px;
+    }
+
+    .back_btn {
+        padding: 15px 30px;
+        border-radius: 80px;
+        outline: none;
+        border: 1px solid gray;
+        color: gray;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.25s ease;
+
+        &:hover {
+            background-color: gray;
+            color: black;
+            transition: 0.25s ease;
+        }
+    }
+
+    .buy_btn {
+        padding: 15px 30px;
+        border-radius: 80px;
+        outline: none;
+        border: 1px solid #FE5F1E;
+        color: white;
+        background-color: #FE5F1E;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: 0.25s ease;
+    }
+}

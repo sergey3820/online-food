@@ -1,0 +1,17 @@
+.main {
+    max-width: 85%;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .link_main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 65%;
+        width: 100%;
+    }
+}

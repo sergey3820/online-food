@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC } from "react";
+import styles from "./App.module.scss";
+import Header from "./Components/Header/Header";
+import Menu from "./Components/Menu/MenuMain/Menu";
+import { BrowserRouter, Route } from "react-router-dom";
+import AllPizas from "./Components/AllPizzas/AllPizzasMain/AllPizas";
+import MeatPizzas from "./Components/MeatPizzas/MeatPizzas";
+import VeganPizzas from "./Components/VeganPizzas/VeganPizzas";
+import Gril from "./Components/Gril/Gril";
+import SpicyPizzas from "./Components/SpicyPizzas/SpicyPizzas";
+import ClosePizzas from "./Components/ClosePizzas/ClosePizzas";
+import Footer from "./Components/Footer/Footer";
+import Modal from "./Components/Modal/ModalMain/Modal";
 
-function App() {
+const App: FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className={styles.main}>
+        <Header />
+        <Menu />
+        <div className={styles.routers}>
+          <Route path="/All" component={AllPizas} />
+          <Route path="/Meat" component={MeatPizzas} />
+          <Route path="/Vegeterian" component={VeganPizzas} />
+          <Route path="/Gril" component={Gril} />
+          <Route path="/Spicy" component={SpicyPizzas} />
+          <Route path="/Close" component={ClosePizzas} />
+          <Modal />
+        </div>
+        {/* <Footer /> */}
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

@@ -1,0 +1,43 @@
+.main {
+
+    margin-top: 10%;
+
+    .title {
+      font-size: 2em;
+      align-items: center;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .text1, .text2 {
+        color: gray;
+        text-align: center;
+    }
+
+    .text1 {
+        margin-top: 2%;
+    }
+
+    .text2 {
+        margin-top: 1%;
+    }
+
+    img {
+        width: 500px;
+        margin-left: 15%;
+        margin-top: 10%;
+    }
+
+   .btn {
+       padding: 10px 30px;
+       font-size: 17px;
+       border-radius: 70px;
+       outline: none;
+       cursor: pointer;
+       background-color: #282828;
+       border: 1px solid #282828;
+       color: white;
+       margin-left: 37%;
+       margin-top: 10%;
+   }
+}

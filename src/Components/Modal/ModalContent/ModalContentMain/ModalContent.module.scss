@@ -1,0 +1,38 @@
+.main {
+
+    max-width: 60%;
+    width: 100%;
+    margin: 0 auto;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10%;
+
+        div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .shop_icon {
+            font-size: 1.7em;
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 1.6em;
+            font-weight: bold;
+            margin-left: 7%;
+        }
+
+        .text {
+           color: gray;
+        }
+
+        .remove_icon {
+            color: gray;
+        }
+    }
+}

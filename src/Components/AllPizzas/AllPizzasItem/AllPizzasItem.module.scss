@@ -1,0 +1,117 @@
+.main {
+    img {
+        margin-left: 12%;
+    }
+}
+
+.title {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.atributes {
+    margin-top: 7%;
+    padding: 2%;
+    border-radius: 7px;
+    background-color: #F3F3F3;
+}
+
+.weight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+
+    .weight_btn1 {
+        padding: 10px 55px;
+        font-size: 16px;
+        background-color: #F3F3F3;
+        border: 1px solid #F3F3F3;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.25s ease;
+
+        &:hover {
+            background-color: white;
+            transition: 0.25s ease;
+        }
+    }
+
+    .weight_btn2 {
+        padding: 10px 25px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #F3F3F3;
+        border: 1px solid #F3F3F3;
+        cursor: pointer;
+        transition: 0.25s ease;
+
+        &:hover {
+            background-color: white;
+            transition: 0.25s ease;
+        }
+    }
+}
+
+.size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        padding: 10px 30px;
+        font-weight: bold;
+        font-size: 16px;
+        background-color: #F3F3F3;
+        border: 1px solid #F3F3F3;
+        cursor: pointer;
+        transition: 0.25s ease;
+
+        &:hover {
+            background-color: white;
+            transition: 0.25s ease;
+        }
+    }
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+
+    p {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    button {
+        padding: 10px 40px;
+        border-radius: 30px;
+        font-size: 18px;
+        cursor: pointer;
+        outline: none;
+        border: 1px solid #FE5F1E;
+        color: #FE5F1E;
+        background-color: white;
+        transition: 0.25s ease;
+
+        &:hover {
+            background-color: #FE5F1E;
+            color: white;
+            transition: 0.25s ease;
+        }
+    }
+}
+
+.summ {
+    border-radius: 100px;
+    padding: 5px 10px;
+    background-color: #FE5F1E;
+    color: white;
+}
+
+.selected {
+    background-color: white;
+}
